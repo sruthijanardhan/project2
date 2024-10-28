@@ -1,0 +1,54 @@
+h1{
+    color:blue;
+    text-align: center;
+    border:dashed 5px black;
+
+}
+h2{
+    color: brown;
+    text-align: center;
+    border:dotted 5px yellow;
+}
+h4{
+    color:black;
+    text-align: center;
+}
+.one{
+    display: flex;
+    background-color: darksalmon;
+    justify-content: center;
+
+}
+.two{
+    display:flex;
+    background-color: gold;
+    height:auto;
+    width:200px;
+}
+.three{
+    display: flex;
+    background: darkred;
+    justify-content: center;
+    font-size: medium;
+    margin:  50px;
+    padding:5px;
+    font-style: italic;
+}
+.four{
+    display:flex;
+    background: hotpink;
+    justify-content:flex-start ;
+    font-size: medium;
+    font-style: oblique;
+    margin: 50px;
+    padding:5px;
+}
+.five{
+    display:flex;
+    background-color:coral;
+
+}
+#sss{
+display: flex;
+text-align: center;
+}
