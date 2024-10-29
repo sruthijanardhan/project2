@@ -1,17 +1,17 @@
 h1{
     color:blue;
     text-align: center;
-    border:dashed 5px black;
 
 }
 h2{
-    color: brown;
+    color:green;
     text-align: center;
-    border:dotted 5px yellow;
+
 }
 h4{
     color:black;
-    text-align: center;
+    text-align:right;
+    justify-content: center;
 }
 .one{
     display: flex;
@@ -24,11 +24,13 @@ h4{
     background-color: gold;
     height:auto;
     width:200px;
+    text-align: center;
 }
 .three{
     display: flex;
     background: darkred;
     justify-content: center;
+    align-content:flex-end;
     font-size: medium;
     margin:  50px;
     padding:5px;
@@ -37,18 +39,13 @@ h4{
 .four{
     display:flex;
     background: hotpink;
-    justify-content:flex-start ;
     font-size: medium;
     font-style: oblique;
     margin: 50px;
     padding:5px;
+    
 }
 .five{
     display:flex;
     background-color:coral;
-
-}
-#sss{
-display: flex;
-text-align: center;
 }
